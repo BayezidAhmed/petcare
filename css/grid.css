@@ -177,8 +177,10 @@
       .mobile-icon{
           padding: 8px !important;
           margin-top: 4px !important;
+          margin-right: 10px !important;
       }
       .menu{
+        height: 287px !important;
           top: 40px !important;
       }
       .menu ul li a{
@@ -193,6 +195,34 @@
     }
     .loader img{
         width: 90% !important;
+    }
+    .banner-text h3{
+        font-size: 26px !important;
+    }
+    .gall-item{
+        width: 320px !important;
+    }
+    .pakage-item{
+        width: 320px !important;
+    }
+    .walking, .daycare, .grooming{
+        width: 320px !important;
+    }
+    .question-bg{
+        padding-bottom: 45px !important;
+    }
+    .question-heading h3{
+        font-size: 24px !important;
+    }
+    .pakage-bg{
+        padding-top: 45px !important;
+    }
+    .pakage-bg h2{
+        margin-bottom: 45px !important;
+        font-size: 24px !important;
+    }
+    .pakage-item:hover{
+        box-shadow: 0px -10px 0px 7px #00bd56, 0px 0px 0px 7px #00bd56;
     }
 }
 @media (min-width: 570px) and (max-width:649px){
@@ -486,9 +516,17 @@
       .loader img{
         width: 550px !important;
         margin-left: 100px !important;
-      }
+      }  
+}
 
-      
+@media only screen and (max-width: 768px)  {
+    .owl-nav .owl-prev{
+        left: -10px !important;
+    }
+    .owl-nav .owl-next{
+        right: -10px !important;
+    }
+
 }
 
 @media (min-width: 768px) and (max-width:899px)  {
