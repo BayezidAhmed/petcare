@@ -526,6 +526,12 @@ button[aria-expanded="true"] {
 .owl-carousel .item{
   border: 1px solid transparent;
 }
+.owl-nav .owl-next{
+  right: -15px !important;
+}
+.owl-nav .owl-prev{
+  left: -15px !important;
+}
 .clients-card p{
   padding-bottom: 30px;
   line-height: 1.8;
