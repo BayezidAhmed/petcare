@@ -39,7 +39,7 @@
         margin-top: 70px !important;
     }
     .banner{
-        padding:50px 25px 125px 25px !important;
+        padding:50px 25px 100px 25px !important;
       }
     .banner-text h3{
         padding:10px 40px !important;
@@ -52,6 +52,7 @@
         padding:8px 15px !important;
         font-size: 12px !important;
         font-weight: 400 !important;
+        margin-top: 15px !important;
         letter-spacing: 1px !important;
       }
       #btp-btn{
@@ -161,6 +162,7 @@
         display: block !important; 
       }
       .loader img{
+          height: 100vh !important;
         width: 430px !important;
         margin-left: 20px !important;
       }
