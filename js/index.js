@@ -46,12 +46,6 @@ function myFunction(x) {
 
 // loader start
 
-
-  $(window).on("load",function(){
-    $(".loader").fadeOut(1000)
-    
-  })
-
   setTimeout(function () {
     $('.loader').fadeToggle();
   }, 1500);
